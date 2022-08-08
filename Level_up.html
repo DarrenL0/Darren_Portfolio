@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Darren's E-Portfolio</title>
+    </head>
+    
+
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="index.html#" class="nav__logo">Darren</a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="index.html#home" class="nav__link active-link">
+                                <i class="uil uil-home nav__icon"></i> Home
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="index.html#about" class="nav__link">
+                                <i class="uil uil-user-circle nav__icon"></i> About                                
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="index.html#skills" class="nav__link">
+                                <i class="uil uil-file-alt nav__icon"></i> Skills                                
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="index.html#qualifications" class="nav__link">
+                                <i class="uil uil-file-alt nav__icon"></i> Qualification                                
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="index.html#portfolio" class="nav__link">
+                                <i class="uil uil-scenery nav__icon"></i> Portfolio
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="index.html#contact" class="nav__link">
+                                <i class="uil uil-message nav__icon"></i> Contact me
+                            </a>
+                        </li>
+                    </ul>
+                    <i class="uil uil-times nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__btns">
+                    <!-- Theme change button -->
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== OVERVIEW ====================-->
+
+        <main class="main">
+            <!--==================== Title ====================-->
+            <section class="overview section" id="overview">
+                <div>
+                    <h1>Level up</h1>
+
+                    <div>
+                        <h3>Project overview</h3>
+
+                        <h4>Design problem</h4>
+                        <p>
+                            Level up is a fitness app that will provide users with the essential 
+                            tools to train in the most efficient ways. The app will allow users to track 
+                            their progress and set up programs that they can follow. The app’s goal is to 
+                            provide more than just fitness functions, as it strives to motivate users through
+                             a progress system unique to the app. The progress system mocks a game-like scenario 
+                             where each user has a level, through completion of their fitness programs and daily tasks 
+                             set by the app, the users can gain experience points to level up. The concept is to give the 
+                             user an alternative reason to train while utilising our app. This way the user can stay motivated
+                              through small accomplishments to a bigger goal.
+                        </p>
+
+                        <h3>App statement</h3>
+                        <h4>Main purpose</h4>
+                        <p>Level up is an app focused on encouraging users to exercise. Level up will perform various functions 
+                            to allow all types of users to achieve their fitness goals.
+                        </p>
+
+                        <h4>Use case</h4>
+                        <p>
+                            Ever dreamed of being Jason Bourne or Laura Croft? Try “Level Up” to achieve your peak fitness level, 
+                            where you can train to become them, we will bring you all the tools you need to achieve your dream figure. 
+                            Be it providing you programs or keeping track of your diet, we even have a leveling system to portray your effort. 
+                            The Grind never ends.
+                        </p>
+
+                        <h4>Market research</h4>
+                        <h5>App one: Fitbod Gym & Home Workout log</h5>
+                        <img src="assets/img/Level_up/Level_up_market_research_1.png">
+                    
+                        <p>Features: </p>
+
+                        <ul>
+                            <li>-&nbsp;Mini questionnaire at start of app - Asks about goals and workout experience</li>
+                            <li>-&nbsp;Strength focused workouts - Has support for focusing specific muscle groups with curated workouts</li>
+                            <li>-&nbsp;Tracks recovery days and which muscle groups are fresh</li>
+                            <li>-&nbsp;Allows workouts to be added manually</li>
+                            <li>-&nbsp;Only 3 Free Workouts allowed</li>
+                            <li>-&nbsp;Excellent themed UI</li>
+                        </ul>
+
+                        <p>Design influences</p>
+                        <p>
+                            Fitbod has an excellent list of exercises with information on which muscle groups and equipment 
+                            is required. We will incorporate a similar feature in our own app using our REST API, showing the detailed information of exercises.
+                        </p>
+
+                        <h5>App two: Strong Workout Tracker Gym Log</h5>
+                        <img src="assets/img/Level_up/Level_up_market_research_2.png">
+                        
+                        <p>Features: </p>
+
+                        <ul>
+                            <li>-&nbsp; Nutrition information (PRO required)</li>
+                            <li>-&nbsp; Example exercise routines to follow</li>
+                            <li>-&nbsp; List of exercises to learn and record</li>
+                            <li>-&nbsp; Storage of custom routines for future workouts</li>
+                            <li>-&nbsp; Workout history showing all previous activities</li>
+                            <li>-&nbsp; Simple UI</li>
+                        </ul>
+
+                        <p>Design influences</p>
+                        <ul>
+                            <li>-&nbsp; Our app will be heavily influenced by Strong. 
+                                Strong has an excellently developed workout tracking 
+                                functionality, which is one of the primary purposes of our app.</li>
+                            <li>-&nbsp; Strong’s list of exercises is comprehensive and we have adapted
+                                 this for our app.</li>
+                            <li>-&nbsp; Strong is excellent at tracking and recording exercises, something we aim to do in our own project.</li>
+                        </ul>
+
+                        <h4>REST API</h4>
+                        <p>
+                            Our team integrated a rest api to retrieve exercise programs 
+                            in order to negate the tedious work of adding it manually. 
+                            Furthermore, by using rest api it allows our application to gain
+                             better flexibility in using other databases and scalability as it 
+                             reduces the difficulty in changes.  
+                        </p>
+                        
+                        <h5>Example REST API Get Request Result - Chin-ups</h5>
+                        <a href="https://wger.de/api/v2/exercise/181/?format=json">REST API - Exercise List</a>
+
+                        <pre>
+                            {
+                                "Id":181,
+                                "license_author":"oliser67",
+                                "status":"2",
+                                "description":"Like pull-ups but with a reverse grip", "name":"Chin-ups",
+                                "name_original":"Chin-ups",
+                                "creation_date":"2013-07-24", "uuid":"f6c4e2fa-226d-46e8-87dc-75fc8cd628bd", "license":1,
+                                "category":12,
+                                "language":2,
+                                "muscles":[1,12],
+                                "muscles_secondary":[],
+                                "Equipment":[6]
+                            } 
+                        </pre>
+
+                        <h4>Wireframe</h4>
+                        <p>
+                            For this project we designed a low fidelity prototype to create a visual design and portray 
+                            the key element for our application, this allowed the team to create discussion on our vision 
+                            and improvement towards the design. Furthermore, the team created a medium fidelity design for 
+                            each functionality to convey a test with users in the usability and observe how they would interact 
+                            with our application, which allowed the team to improve the design.
+                        </p>
+
+                        <h5>Low fidelity</h5>
+                        <img src="assets/img/Level_up/Level_up_wireframe_1.png">
+
+                        <h5>Medium fidelity</h5>
+                        <img src="assets/img/Level_up/Level_up_wireframe_2.png">
+
+                        <h3>Final</h3>
+
+                        <img src="assets/img/Level_up/Level_up_final_1.png">
+                        <p><b>Figure 1.1</b> &nbsp; Login and sign up screen </p>
+
+                        <img src="assets/img/Level_up/Level_up_final_2.png">
+                        <p><b>Figure 1.2</b> &nbsp; Creating a new work out  </p>
+
+                        <img src="assets/img/Level_up/Level_up_final_3.png">
+                        <p><b>Figure 1.3</b> &nbsp; Adding new exercise  </p>
+
+                        <img src="assets/img/Level_up/Level_up_final_5.png">
+                        <p><b>Figure 1.4</b> &nbsp; Exercise index page </p>
+
+                        <img src="assets/img/Level_up/Level_up_final_6.png">
+                        <p><b>Figure 1.5</b> &nbsp; Workout history screen </p>
+
+                        <h3>Reflection</h3>
+
+                        <h4>What went well</h4>
+                        <p>
+                            The team worked really well in contributing towards the project 
+                            till completion. There was continuous communication and discussion on 
+                            improving the app. The team also kept in touch with the client to get feedback 
+                            and ensure they are happy with the product.
+                        </p>
+
+                        <h4>What could have been improved</h4>
+                        <p>
+                            As this was under a time constraint there was some functionality that was not 
+                            implemented due to poor management. For next time we could of adopted agile methodology
+                             to ensure we pioritise task with higher difficulty to ensure all functionality are implemented. 
+                             Furthermore, the design aspect was much more difficult to tackle within our time frame, we should 
+                             have spent time on learning the technology.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+            <div class="footer__bg">
+                <div class="footer__container container grid">
+                    <div>
+                        <h1 class="footer__title">Darren</h1>
+                        <span class="footer__subtitle">Backend developer</span>
+                    </div>
+
+                    <ul class="footer__link">
+                        <li>
+                            <a href="index.html#home" class="footer__link">Home</a>
+                            <a href="index.html#about" class="footer__link">About</a>
+                            <a href="index.html#skills" class="footer__link">Skills</a>
+                            <a href="index.html#qualification" class="footer__link">Qualification</a>
+                            <a href="index.html#portfolio" class="footer__link">Portfolio</a>
+                            <a href="index.html#contact" class="footer__link">Contact Me</a>
+                        </li>
+                    </ul>
+
+                    <div class="footer__socails">
+                        <a href="https://www.linkedin.com/in/darren-lieu030267/" class="footer__social">
+                            <i class="uil uil-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/DarrenL0" class="footer__social">
+                            <i class="uil uil-github"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <p class="footer__copy">&#169; Darren Lieu. All right reserved</p>
+            </div>
+        </footer>
+        
+        <!--==================== Dark_theme JS ====================-->
+        <script src="assets/js/dark_theme.js"></script>
+
+    </body>
+
+</html>

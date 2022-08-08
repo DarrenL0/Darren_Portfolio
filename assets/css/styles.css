@@ -531,9 +531,15 @@ img {
 }
 
 .portfolio__img{
-  width: 265px;
   border-radius: .5rem;
   justify-self: center;
+}
+
+.portfolio__img_sp{
+  justify-self: center;
+  max-width: 70%;
+  border-radius: 1rem;
+  max-height: 70%;
 }
 
 .portfolio__title{
@@ -876,7 +882,7 @@ img {
   }
 
   .portfolio__img{
-    width: 320px;
+    width: 550px;
   }
 
   .portfolio__content{
