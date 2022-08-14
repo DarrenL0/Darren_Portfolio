@@ -76,120 +76,113 @@
         <main class="main">
             <!--==================== Title ====================-->
             <section class="overview section" id="overview">
-                <div>
-                    <h1>Prosperity Bank</h1>
+                <div class="project__container container grid">
+                    <h1 class="project__title">Prosperity Bank</h1>
+                
+                    <div>
+                        <h3 class="section__title"> Project overview</h3>
+
+                        <h3 class="sub__heading"> Design problem</h3>
+                        <p class="project__description">My goal for this project is to design a simulated banking application. 
+                            The objective is to implement basic functionality of any banking system
+                            such as deposit and withdrawal, a scheduled pay system and a separate admin
+                            page. This project is to develop my skills as a developer by learning a new 
+                            technology and utilising what I've learnt in my bachelor studies. 
+                        </p>
+
+                        <h3 class="sub__heading">System architecture</h3>
+                        <p class="project__description">
+                            A system architecture was created to ensure a vision is created for the project,
+                            thus can be used to review the overall state of the project during development. 
+                            Furthermore, this allows a smoother transition in future development by reviewing 
+                            this project’s vision, while also allowing for quicker changes in the system as it 
+                            provides a clear picture for the project.
+                        </p>
+
+                        <img class="project__img" src="assets/img/Prosperity_bank/system_architecture.png">
+
+                        <p class="project__description">Prosperity bank web pages: Presentation Layer ( User interface ) - Contain all the view pages</p>
+                        <p>Layer 2: Business logic layer - All functionality is presented in this layer</p>
+                        <ul class="project__description">
+                            <li>&emsp;Bank - this will handle all customer and transaction information <br></li>
+                            <li>&emsp;BillPay - this will handle the scheduled payment functionality<br></li>
+                            <li>&emsp;Security - this will handle the user authentication <br></li>
+                            <li>&emsp;Other - any extra functionality <br></li>
+                            <li>&emsp;Data Access - This will provide all the functionality one needs to connect to database and retrieve information <br></li>
+                        </ul>
+                        <p class="project__description">Prosperity bank database - Local database using Microsoft SQL server management</p>
+
+                        <h3 class="sub__heading">Entity relationship diagram</h3>
+                        <p class="project__description"> 
+                            An entity relationship diagram was created to provide a 
+                            better graphical representation of our database relationship. 
+                            As we would be using “code first approach”, this diagram helps us
+                            map out our model’s attributes and relationship between entities, 
+                            thus minimising redundancy. 
+                        </p>
+
+                        <img class="project__img" src="assets/img/Prosperity_bank/ER_model.png">
+                        
+                        <h3 class="section__title">Final</h3>
+
+                        <p><b>Figure 1.1</b> &nbsp; Customer account page</p>
+                        <img class="project__img" src="assets/img/Prosperity_bank/PB_my account.png">
+                        
+                        <p><b>Figure 1.2</b> &nbsp; Customer transaction history</p>
+                        <img class="project__img" src="assets/img/Prosperity_bank/PB_statement.png">
+                        
+                        <p><b>Figure 1.3</b> &nbsp; Deposit page</p>
+                        <img class="project__img" src="assets/img/Prosperity_bank/PB_deposit.png">
+                        
+                        <p><b>Figure 1.4</b> &nbsp; Scheduled payment creation</p>
+                        <img class="project__img" src="assets/img/Prosperity_bank/PB_billpay.png">
+                        
+                        <p><b>Figure 1.5</b> &nbsp; Web API for prosperity bank database</p>
+                        <img class="project__img" src="assets/img/Prosperity_bank/PB_webAPI.png">
+                        
+                        <p><b>Figure 1.6</b> &nbsp; Executing get request for Customer</p>
+                        <img class="project__img" src="assets/img/Prosperity_bank/PB_webAPI_Customer.png">
+                        
+                        <p><b>Figure 1.7</b> &nbsp; Admin customer dashboard</p>
+                        <img class="project__img" src="assets/img/Prosperity_bank/PB_admin.png">
+                        
+                        <p><b>Figure 1.8</b> &nbsp; Admin billpay dashboard</p>
+                        <img class="project__img" src="assets/img/Prosperity_bank/PB_admin_billpay.png">
+                        
+                        <p><b>Figure 1.9</b> &nbsp; Show all customer transaction history</p>
+                        <img class="project__img" src="assets/img/Prosperity_bank/PB_admin_transaction.png">
+                        
+                        
+                        <h3 class="section__title"> Reflection</h3>
+
+                        <h3 class="sub__heading">What went well</h3>
+
+                        <p class="project__description">
+                            Frequent commitment to the project while working full time, 
+                            and successfully completing the project. Able to learn a new 
+                            technology and further demonstrate my knowledge from past projects.
+                        </p>
+
+                        <h3 class="sub__heading"> What could have been improved</h3>
+
+                        <p class="project__description">
+                            As the focus for this project was the functionality there was a lack of
+                            focus towards the design of the project. Therefore, the web pages are very
+                            simple and bland. Furthermore, some functionality took much longer than planned, 
+                            due to the lack of knowledge, which could have been avoided from better research and practice. 
+                        </p>
+
+                        <h3 class="sub__heading"> What I would add to the project in the future</h3>
+                        
+                        <ul class="project__description">
+                            <li>-&nbsp;Unit testing</li>
+                            <li>-&nbsp;Creating new bank account</li>
+                            <li>-&nbsp;Loan payment</li>
+                            <li>-&nbsp;Interest</li>
+                            <li>-&nbsp;Better web design</li>
+                        </ul>
+                    </div>
                 </div>
-
-                <div>
-                    <h3> Project overview</h3>
-
-                    <h4> Design problem</h4>
-                    <p>My goal for this project is to design a simulated banking application. 
-                        The objective is to implement basic functionality of any banking system
-                         such as deposit and withdrawal, a scheduled pay system and a separate admin
-                          page. This project is to develop my skills as a developer by learning a new 
-                          technology and utilising what I've learnt in my bachelor studies. 
-                    </p>
-
-                    <h4>System architecture</h4>
-                    <p>
-                        A system architecture was created to ensure a vision is created for the project,
-                         thus can be used to review the overall state of the project during development. 
-                         Furthermore, this allows a smoother transition in future development by reviewing 
-                         this project’s vision, while also allowing for quicker changes in the system as it 
-                         provides a clear picture for the project.
-                    </p>
-
-                    <img src="assets/img/Prosperity_bank/system_architecture.png">
-
-                    <pre>
-                        Prosperity bank web pages: Presentation Layer ( User interface ) - Contain all the view pages
-
-                        Layer 2: Business logic layer - All functionality is presented in this layer
-                            Bank - this will handle all customer and transaction information 
-                            
-                            BillPay - this will handle the scheduled payment functionality 
-                            
-                            Security - this will handle the user authentication
-
-                            Other - any extra functionality 
-                            
-                            Data Access - This will provide all the functionality one needs to connect to database and retrieve information 
-
-                        Prosperity bank database - Local database using Microsoft SQL server management
-
-                    </pre>
-
-                    <h4>Entity relationship diagram</h4>
-                    <p> 
-                        An entity relationship diagram was created to provide a 
-                        better graphical representation of our database relationship. 
-                        As we would be using “code first approach”, this diagram helps us
-                         map out our model’s attributes and relationship between entities, 
-                         thus minimising redundancy. 
-                    </p>
-
-                    <img src="assets/img/Prosperity_bank/ER_model.png">
-                    
-                    <h4>Final</h4>
-
-                    <img src="assets/img/Prosperity_bank/PB_my account.png">
-                    <p><b>Figure 1.1</b> &nbsp; Customer account page</p>
-
-                    <img src="assets/img/Prosperity_bank/PB_statement.png">
-                    <p><b>Figure 1.2</b> &nbsp; Customer transaction history</p>
-
-                    <img src="assets/img/Prosperity_bank/PB_deposit.png">
-                    <p><b>Figure 1.3</b> &nbsp; Deposit page</p>
-
-                    <img src="assets/img/Prosperity_bank/PB_billpay.png">
-                    <p><b>Figure 1.4</b> &nbsp; Scheduled payment creation</p>
-
-                    <img src="assets/img/Prosperity_bank/PB_webAPI.png">
-                    <p><b>Figure 1.5</b> &nbsp; Web API for prosperity bank database</p>
-
-                    <img src="assets/img/Prosperity_bank/PB_webAPI_Customer.png">
-                    <p><b>Figure 1.6</b> &nbsp; Executing get request for Customer</p>
-
-                    <img src="assets/img/Prosperity_bank/PB_admin.png">
-                    <p><b>Figure 1.7</b> &nbsp; Admin customer dashboard</p>
-
-                    <img src="assets/img/Prosperity_bank/PB_admin_billpay.png">
-                    <p><b>Figure 1.8</b> &nbsp; Admin billpay dashboard</p>
-
-                    <img src="assets/img/Prosperity_bank/PB_admin_transaction.png">
-                    <p><b>Figure 1.9</b> &nbsp; Show all customer transaction history</p>
-                    
-                    <h3> Reflection</h3>
-
-                    <h4>What went well</h4>
-
-                    <p>
-                        Frequent commitment to the project while working full time, 
-                        and successfully completing the project. Able to learn a new 
-                        technology and further demonstrate my knowledge from past projects.
-                    </p>
-
-                    <h4> What could have been improved</h4>
-
-                    <p>
-                        As the focus for this project was the functionality there was a lack of
-                         focus towards the design of the project. Therefore, the web pages are very
-                          simple and bland. Furthermore, some functionality took much longer than planned, 
-                          due to the lack of knowledge, which could have been avoided from better research and practice. 
-                    </p>
-
-                    <h4> What I would add to the project in the future</h4>
-                    
-                    <ul>
-                        <li>-&nbsp;Unit testing</li>
-                        <li>-&nbsp;Creating new bank account</li>
-                        <li>-&nbsp;Loan payment</li>
-                        <li>-&nbsp;Interest</li>
-                        <li>-&nbsp;Better web design</li>
-                    </ul>
-                </div>
-
             </section>
         </main>
 

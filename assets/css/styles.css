@@ -715,6 +715,43 @@ img {
 ::-webkit-scrollbar-thumb:hover{
   background-color: var(--text-color-light);
 }
+
+
+
+/*========== Project ==========*/
+
+.project__title{
+  text-align: center;
+  font-size: var(--big-font-size);
+  margin-bottom: var(--mb-2);
+}
+
+.sub__heading{
+  font-size: var(--h3-font-size);
+  margin-bottom: var(--mb-2);
+}
+
+.project__container{
+  gap: 1rem;
+}
+
+.project__description {
+  margin-bottom: var(--mb-2);
+}
+
+.project__img{
+  border-radius: 0.5rem;
+  justify-self: center;
+  align-self: center;
+  margin-bottom: var(--mb-2);
+}
+
+.project_api {
+  text-align: left;
+  white-space: pre-line;
+  margin-bottom: var(--mb-2);
+}
+
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
 @media screen and (max-width: 350px){
